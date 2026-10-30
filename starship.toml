@@ -48,7 +48,6 @@ disabled = false
 [os]
 style = "bg:#9A348E"
 #disabled = true # Disabled by default
-disabled = false
 
 [directory]
 style = "bg:#DA627D"
@@ -160,5 +159,4 @@ format = '[ $symbol ($version) ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#33658A"
-#format = '[ ♥ $time ]($style)'
-format = '[ 󰄛 $time ]($style)'
+format = '[ ♥ $time ]($style)'
