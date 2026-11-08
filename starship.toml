@@ -48,6 +48,7 @@ disabled = false
 [os]
 style = "bg:#9A348E"
 #disabled = true # Disabled by default
+disabled = false
 
 [directory]
 style = "bg:#DA627D"
@@ -58,10 +59,13 @@ truncation_symbol = "…/"
 # Here is how you can shorten some long paths by text replacement
 # similar to mapped_locations in Oh My Posh:
 [directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = " "
-"Pictures" = " "
+"Documentos" = "󰈙 "
+"Descargas" = " "
+"Música" = " "
+"Imágenes" = " "
+"Vídeos" = " "
+"Programas" = " "
+"~" = " "
 # Keep in mind that the order matters. For example:
 # "Important Documents" = " 󰈙 "
 # will not be replaced, because "Documents" was already substituted before.
@@ -159,4 +163,5 @@ format = '[ $symbol ($version) ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#33658A"
-format = '[ ♥ $time ]($style)'
+#format = '[ ♥ $time ]($style)'
+format = '[ 󰄛 $time ]($style)'
